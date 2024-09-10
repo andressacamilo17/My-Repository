@@ -19,8 +19,7 @@ font-weight: 400;
     padding: 0;
 }
 header{
-
-   background-color: red;
+background-image: linear-gradient(#00002b,#120a53,#24147c);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -36,21 +35,25 @@ header{
         font-size: 24px;
     }
 
-.Espanhol{
-background-image: linear-gradient(red,orange,yellow);
+.Europa{
+background-image: linear-gradient(#11096e,#211291,#321ab3);
 background-size: contain;
 align-items:  center;
 text-align: center;
 }
-.Espanhol-div-conteudo{
+.Europa-div-conteudo{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.Espanhol-titulo{
+.Europa-titulo{
     padding: 24px 0;
 }
-.Espanhol-texto-um{
+.Europa-texto-um{
+    padding: 24px 0;
+        font-size: 24px ;
+}
+.Europa-texto-dos{
     padding: 24px 0;
         font-size: 24px ;
 }
@@ -66,21 +69,24 @@ text-align: center;
    
 }
 
-.perguntas{
-    background-image: linear-gradient(red,orange,yellow);
+.países{
+  background-image: linear-gradient(#000067,#110982,#21129e);
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 16px 0;
     
 }
 
-.perguntas-titulo{
-    color: white;
+.países-div-conteudo{
+   color: white;
     text-size-adjust:0 16;
     padding: 20px 0;
     margin: 0 16px;
-    
+}
+.países-titulo{
+ padding: 16px 0;
+ 
 }
 
